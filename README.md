@@ -7,4 +7,6 @@ Partition: totally ordered sequence of messages
 
 Stream and Boults
 
+Difference to Twitter's Storm.
+
 

@@ -15,6 +15,8 @@ The nice thing about this API is that it’s composable. You can have a single j
 
 Samza parallelism is partition-oriented. Kafka topics have a certain, user-configurable number of partitions each. You can tell Samza that you want a certain number of containers started up, and Samza will split up the Kafka partitions evenly across the containers you asked for by assigning one “task” per partition. The tasks in one container all execute interleaved on the same thread.
 
+Samza and Spring Boot - a first approach
+
 
 
 

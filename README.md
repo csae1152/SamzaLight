@@ -17,6 +17,8 @@ Samza parallelism is partition-oriented. Kafka topics have a certain, user-confi
 
 Samza and Spring Boot - a first approach
 
+Building the samza package.
+
 
 
 

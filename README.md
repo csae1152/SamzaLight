@@ -27,6 +27,18 @@ A more promising model, used in some systems, is to think of a database as an al
 
 At its core is a distributed, durable commit log, implemented by Apache Kafka. Layered on top are simple but powerful tools for joining streams and managing large amounts of data reliably.
 
+Samza is made up of three layers:
+
+A streaming layer.
+An execution layer.
+A processing layer.
+
+Samza provides out of the box support for all three layers.
+
+Streaming: Kafka
+Execution: YARN
+Processing: Samza API
+
 
 
 

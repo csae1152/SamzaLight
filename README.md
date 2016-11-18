@@ -39,6 +39,8 @@ Streaming: Kafka
 Execution: YARN
 Processing: Samza API
 
+Decoupling database layer with Samza.
+
 
 
 

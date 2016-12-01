@@ -41,6 +41,10 @@ Processing: Samza API
 
 Decoupling database layer with Samza.
 
+What is Kappa Architecture?
+
+Kappa Architecture is a software architecture pattern. Rather than using a relational DB like SQL or a key-value store like Cassandra, the canonical data store in a Kappa Architecture system is an append-only immutable log. From the log, data is streamed through a computational system and fed into auxiliary stores for serving.
+
 
 
 

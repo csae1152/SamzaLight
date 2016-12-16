@@ -75,6 +75,10 @@ YARN (Yet Another Resource Manager) is Hadoop v2’s biggest improvement over v1
 
 Samza provides a YARN ApplicationMaster and a YARN job runner out of the box.
 
+One of the advantages of using something like YARN with Samza is that it enables you to potentially run Samza on the same grid that you already run your draft tasks, test tasks, and MapReduce tasks. You could use the same infrastructure for all of that. However, LinkedIn currently does not run Samza in a multi-framework environment because the existing setup itself is quite experimental.
+
+In order to get into a more multi-framework environment, Chris says that the process isolation would have to get a little better.
+
 
 
 
